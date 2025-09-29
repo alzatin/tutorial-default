@@ -14,6 +14,20 @@
             "y": 0.5,
             "uniqueID": "ba9bb14a-0f8f-4fc0-80c6-79c9c634f03a",
             "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.40101010101010104,
+            "y": 0.4751552795031056,
+            "uniqueID": "5d02445b-75e7-406b-95ca-095584fe0df1",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
         }
     ],
     "allConnectors": [],
