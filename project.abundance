@@ -7,8 +7,8 @@
     "ioValues": [
         {
             "name": "Input (1)",
-            "ioValue": 10,
-            "currentEquation": null
+            "ioValue": 15,
+            "currentEquation": "15"
         },
         {
             "name": "Input (2)",
@@ -39,13 +39,34 @@
             "atomType": "Input",
             "name": "Input (2)",
             "x": 0.033,
-            "y": 0.4316770186335404,
+            "y": 0.3416149068322981,
             "uniqueID": "ad13ca05-7383-4795-9c64-3d16d1411208",
             "ioValues": [],
             "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.41543859649122805,
+            "y": 0.46583850931677023,
+            "uniqueID": "7cce16c6-bdee-4a08-af94-aa37be30c86b",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap1ID": "ad13ca05-7383-4795-9c64-3d16d1411208",
+            "ap2ID": "7cce16c6-bdee-4a08-af94-aa37be30c86b"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
