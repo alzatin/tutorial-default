@@ -11,7 +11,7 @@
             "currentEquation": "15"
         },
         {
-            "name": "Input (2)",
+            "name": "love",
             "ioValue": 10,
             "currentEquation": null
         }
@@ -37,7 +37,7 @@
         },
         {
             "atomType": "Input",
-            "name": "Input (2)",
+            "name": "love",
             "x": 0.033,
             "y": 0.3416149068322981,
             "uniqueID": "ad13ca05-7383-4795-9c64-3d16d1411208",
@@ -47,14 +47,14 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.41543859649122805,
-            "y": 0.46583850931677023,
+            "x": 0.4035087719298246,
+            "y": 0.48447204968944096,
             "uniqueID": "7cce16c6-bdee-4a08-af94-aa37be30c86b",
             "ioValues": [
                 {
                     "name": "diameter",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "love/10"
                 }
             ]
         }
