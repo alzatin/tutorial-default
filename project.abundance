@@ -8,7 +8,7 @@
         {
             "name": "Input (1)",
             "ioValue": 15,
-            "currentEquation": "15"
+            "currentEquation": null
         },
         {
             "name": "love",
