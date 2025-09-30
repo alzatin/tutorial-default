@@ -4,7 +4,13 @@
     "x": 0,
     "y": 0,
     "uniqueID": "3303594a-c298-433c-8caf-f757389dabda",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input (1)",
+            "ioValue": 10,
+            "currentEquation": null
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -14,6 +20,15 @@
             "y": 0.4751552795031056,
             "uniqueID": "ba9bb14a-0f8f-4fc0-80c6-79c9c634f03a",
             "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Input (1)",
+            "x": 0.033,
+            "y": 0.5838509316770186,
+            "uniqueID": "988ecc2c-54e2-408e-bca7-102b8856e41b",
+            "ioValues": [],
+            "type": "number"
         }
     ],
     "allConnectors": [],
