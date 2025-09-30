@@ -42,6 +42,78 @@
                     "currentEquation": null
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.28294573643410853,
+            "y": 0.5714285714285714,
+            "uniqueID": "7b5462ae-e556-4b9d-9cf3-3063d4a2bfea",
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "4b6afecc-acf9-4202-96d5-6b80feeb0791",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.5125968992248062,
+                    "y": 0.6459627329192547,
+                    "uniqueID": "acaa551d-761e-4253-87e3-0225dd644651",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10,
+                            "currentEquation": "10"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.3536821705426357,
+                    "y": 0.5124223602484472,
+                    "uniqueID": "2b7bed0a-0136-4582-a15e-10cdb44b7aa3",
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "3871d5e0-455e-4c34-804d-746d91609b5e",
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.47189922480620156,
+                            "y": 0.6024844720496894,
+                            "uniqueID": "a379a7b7-c146-4a30-8db4-f3530be94fb3",
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 10,
+                                    "currentEquation": null
+                                }
+                            ]
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
