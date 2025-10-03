@@ -7,6 +7,11 @@
   "ioValues": [
     {
       "name": "Input (1)",
+      "ioValue": 55,
+      "currentEquation": "55"
+    },
+    {
+      "name": "Input (2)",
       "ioValue": 10
     }
   ],
@@ -26,6 +31,15 @@
       "x": 0.033,
       "y": 0.5838509316770186,
       "uniqueID": "988ecc2c-54e2-408e-bca7-102b8856e41b",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "name": "Input (2)",
+      "x": 0.033,
+      "y": 0.7484472049689441,
+      "uniqueID": "ec15baf6-df31-4a5d-afd9-a59d5a27cb8b",
       "ioValues": [],
       "type": "number"
     }
