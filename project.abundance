@@ -1,80 +1,38 @@
 {
-    "atomType": "Molecule",
-    "name": "tutorial-default",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "3303594a-c298-433c-8caf-f757389dabda",
-    "ioValues": [
-        {
-            "name": "Input (1)",
-            "ioValue": 10,
-            "currentEquation": null
-        }
-    ],
-    "topLevel": true,
-    "allAtoms": [
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9563953488372093,
-            "y": 0.4751552795031056,
-            "uniqueID": "ba9bb14a-0f8f-4fc0-80c6-79c9c634f03a",
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "Input (1)",
-            "x": 0.033,
-            "y": 0.5838509316770186,
-            "uniqueID": "988ecc2c-54e2-408e-bca7-102b8856e41b",
-            "ioValues": [],
-            "type": "number"
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.24224806201550386,
-            "y": 0.5124223602484472,
-            "uniqueID": "e2355135-9445-4a75-9eeb-ac2c6c7e2891",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5455426356589147,
-            "y": 0.6770186335403726,
-            "uniqueID": "80f71fb1-374e-4740-8d32-f6fd677d6434",
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ]
-        }
-    ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "e2355135-9445-4a75-9eeb-ac2c6c7e2891",
-            "ap2ID": "80f71fb1-374e-4740-8d32-f6fd677d6434"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": "80f71fb1-374e-4740-8d32-f6fd677d6434",
-            "ap2ID": "ba9bb14a-0f8f-4fc0-80c6-79c9c634f03a"
-        }
-    ],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": [],
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "tutorial-default",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "3303594a-c298-433c-8caf-f757389dabda",
+  "ioValues": [
+    {
+      "name": "Input (1)",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.9563953488372093,
+      "y": 0.4751552795031056,
+      "uniqueID": "ba9bb14a-0f8f-4fc0-80c6-79c9c634f03a",
+      "ioValues": []
+    },
+    {
+      "atomType": "Input",
+      "name": "Input (1)",
+      "x": 0.033,
+      "y": 0.5838509316770186,
+      "uniqueID": "988ecc2c-54e2-408e-bca7-102b8856e41b",
+      "ioValues": [],
+      "type": "number"
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": [],
+  "filetypeVersion": 1
 }
