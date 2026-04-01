@@ -1,9 +1,9 @@
 {
   "atomType": "Molecule",
-  "name": "tutorial-default",
   "x": 0,
   "y": 0,
   "uniqueID": "3303594a-c298-433c-8caf-f757389dabda",
+  "name": "tutorial-default",
   "ioValues": [
     {
       "name": "Input (1)",
@@ -18,34 +18,35 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "name": "Output",
       "x": 0.9563953488372093,
       "y": 0.4751552795031056,
       "uniqueID": "ba9bb14a-0f8f-4fc0-80c6-79c9c634f03a",
-      "ioValues": []
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Input",
-      "name": "Input (1)",
-      "x": 0.033,
-      "y": 0.5838509316770186,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "988ecc2c-54e2-408e-bca7-102b8856e41b",
-      "ioValues": [],
+      "name": "Input (1)",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "name": "Input (2)",
-      "x": 0.033,
-      "y": 0.7484472049689441,
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
       "uniqueID": "ec15baf6-df31-4a5d-afd9-a59d5a27cb8b",
-      "ioValues": [],
+      "name": "Input (2)",
       "type": "number"
     }
   ],
   "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": [],
   "filetypeVersion": 1
 }
