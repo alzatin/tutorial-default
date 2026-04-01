@@ -17,6 +17,99 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.4972183588317108,
+      "y": 0.6055900621118013,
+      "uniqueID": "id-13",
+      "name": "Sphere",
+      "ioValues": [
+        {
+          "name": "Radius",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.45804540967423496,
+          "y": 0.5090909090909091,
+          "uniqueID": "id-10",
+          "ioValues": [
+            {
+              "name": "radius",
+              "ioValue": 10
+            }
+          ],
+          "codeVersion": 1,
+          "code": "//Inputs:[radius];\n\n//let shape = replicad.makeSphere(radius)\n\nconst newPlane = new replicad.Plane().pivot(0, 'Y');\n\n return { geometry: [replicad.makeSphere(radius)], tags: [],\n      color: '#A3CE5B',\n      bom:[],\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-11",
+          "name": "Radius",
+          "type": "number"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.24709302325581398,
+          "y": 0.8575851393188855,
+          "uniqueID": "id-12",
+          "value": 10
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-10",
+          "ap2ID": "id-9"
+        },
+        {
+          "ap2Name": "radius",
+          "ap1ID": "id-11",
+          "ap2ID": "id-10"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-04-01T18:23:39.180Z",
+        "repoName": "Sphere",
+        "dateCreated": "2024-11-13T19:37:04Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/alzatin/Sphere/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": 1731526624936,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Sphere",
+        "topics": [],
+        "parentRepo": "BarbourSmith/Sphere",
+        "forks": 1,
+        "dateModified": "03/05/2025",
+        "ranking": 1.4,
+        "searchField": "sphere alzatin",
+        "owner": "alzatin",
+        "description": "Creates a sphere from the input radius",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Sphere/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Sphere/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Inches",
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [],
