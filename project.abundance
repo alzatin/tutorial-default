@@ -4,16 +4,6 @@
   "y": 0,
   "uniqueID": "3303594a-c298-433c-8caf-f757389dabda",
   "name": "tutorial-default",
-  "ioValues": [
-    {
-      "name": "Input (1)",
-      "ioValue": 55
-    },
-    {
-      "name": "Input (2)",
-      "ioValue": 10
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -27,22 +17,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
-      "uniqueID": "988ecc2c-54e2-408e-bca7-102b8856e41b",
-      "name": "Input (1)",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
-      "uniqueID": "ec15baf6-df31-4a5d-afd9-a59d5a27cb8b",
-      "name": "Input (2)",
-      "type": "number"
     }
   ],
   "allConnectors": [],
